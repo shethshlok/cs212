@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS212 - Northern Arizona University</title>
+    <style>
+        /* Reset and Base Styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Container Styling */
+        .container {
+            text-align: center;
+            background: white;
+            padding: 3rem 4rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 52, 102, 0.15);
+            border-top: 8px solid #003466; /* NAU True Blue */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Image Styling */
+        .logo-placeholder {
+            width: 150px;       /* Sets the preferred width */
+            height: auto;       /* Maintains aspect ratio */
+            max-width: 100%;    /* Ensures it doesn't overflow on small screens */
+            margin-bottom: 1.5rem; /* Space between image and text */
+            border-radius: 8px; /* Optional: slight rounding */
+        }
+
+        /* Typography */
+        h1 {
+            color: #003466; /* NAU True Blue */
+            margin: 0 0 0.5rem 0;
+            font-size: 2.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            color: #FFD200; /* NAU Gold */
+            text-shadow: 1px 1px 0px rgba(0,0,0,0.1); 
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="./logo.png" 
+             alt="University Logo" 
+             class="logo-placeholder">
+             
+        <h1>Northern Arizona University</h1>
+        <h2>CS212</h2>
+    </div>
+
+</body>
+</html>
